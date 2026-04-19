@@ -167,7 +167,6 @@ jobs:
       uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
           ✅ Деплой Taski успешно выполнен!
           🚀 Проект обновлён и работает на сервере.
